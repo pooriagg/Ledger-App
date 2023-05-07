@@ -1,2 +1,5 @@
-# Ledger-SImple-App
+# Ledger-Simple-App
+
+Ledger powered DApp
+
 Soon!
