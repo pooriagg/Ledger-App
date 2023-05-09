@@ -73,8 +73,8 @@ const init = async () => {
             );
             let gas;
     
-            let maxPriorityFeePerGas = feeData["maxPriorityFeePerGas"]; //? For type-2 tx
-            let maxFeePerGas = feeData["maxFeePerGas"]; //? For type-2 tx
+            let maxPriorityFeePerGas = feeData["maxPriorityFeePerGas"]; //? For type-2 tx (EIP-1559)
+            let maxFeePerGas = feeData["maxFeePerGas"]; //? For type-2 tx (EIP-1559)
     
             let gasPrice = web3.utils.numberToHex(
                 await web3.eth.getGasPrice()
