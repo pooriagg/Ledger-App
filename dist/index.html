@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Ledger-DApp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-8 mx-auto">
+                <button class="btn btn-block btn-warning w-100 mt-5" id="connect">Connect Your Ledger</button>
+            </div>
+
+            <div class="col-8 mx-auto">
+                <div class="card shadow my-5">
+                    <div class="card-header text-center">
+                        Send Ether Transaction
+                    </div>
+
+                    <div class="card-body">
+                        <form>
+                            <input type="text" placeholder="Recepient address" class="form-control my-2" id="to">
+                            <input type="text" placeholder="Ether amount" class="form-control my-2" id="value">
+                            <input type="text" placeholder="Data in hex" class="form-control my-2" id="data">
+
+                            <button type="button" class="form-control btn btn-info btn-block" id="send">Execute</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/index.84a608bd.js" defer=""></script>
+</body>
+</html>
