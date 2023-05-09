@@ -40,7 +40,8 @@ window.addEventListener("load", async () => {
                             "ether"
                         ) + " Matic"
                     );
-    
+                    
+                    //? Execute the main function after signing the msg and fetching user ethereum account
                     return await init();
                 }).catch(() => {
                     btn.classList.remove("btn-warning");
